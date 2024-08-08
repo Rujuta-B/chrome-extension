@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chrome Extension Builder</title>
+    <style>
+      /* Add your styles here */
+    </style>
+  </head>
+  <body>
+    <h1>Chrome Extension Builder</h1>
+    <form id="extension-form">
+      <label for="name">Extension Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="version">Version:</label>
+      <input type="text" id="version" name="version" required value="1.0" />
+
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" required></textarea>
+
+      <!-- Add more fields as needed -->
+
+      <button type="submit">Generate Extension</button>
+    </form>
+    <pre id="output"></pre>
+    <script src="popup.js"></script>
+  </body>
+</html>

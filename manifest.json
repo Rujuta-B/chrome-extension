@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Extension Builder",
+  "version": "1.0",
+  "description": "Build Chrome extensions within a Chrome extension.",
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "builder.png",
+      "48": "builder.png",
+      "128": "builder.png"
+    }
+  },
+  "icons": {
+    "16": "builder.png",
+    "48": "builder.png",
+    "128": "builder.png"
+  }
+}
